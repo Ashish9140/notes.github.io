@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">ourNotes</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search" id="Searching">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <!-- <h1 class="heading">Welcome to notesApp</h1> -->
+            <div class="write-here">
+                <h2>Write Your Notes</h2>
+                <textarea id="addText"></textarea>
+                <button id="addNote">Add Note</button>
+            </div>
+            <br><br>
+            <hr>
+            <h1>Your Notes</h1>
+            <hr>
+            <div class="card-notes">
+                <!-- <h1 class="noteNo">${index + 1}</h1>
+                <p class="para">${element}</p>
+                <div class="twoBtn">
+                <button class="delete" id="${index}" onclick="Delete(this.id)">Delete Note</button>
+                <button class="important" id="Imp${index}" onclick="Important(this.id)">
+                    <span id="impHover">make important</span>
+                </button> -->
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    overflow: scroll;
+    /* this will alwayes display a scroll bar */
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: 25px;
+}
+
+.search-bar {
+    margin: 10px 10px;
+}
+
+.search-bar input {
+    height: 30px;
+    padding: 5px 16px;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.search-bar button {
+    height: 43px;
+    text-align: center;
+    width: 70px;
+    border-radius: 3px;
+    border: 2px solid #b5b9be;
+    font-weight: bold;
+    background-color: #b5b9be;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+
+.container {
+    margin: 10px 0px;
+    width: 780px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+}
+
+.heading {
+    margin: 15px 0px;
+    font-size: 40px;
+}
+
+.write-here {
+    border: 2px solid wheat;
+}
+
+.write-here textarea {
+    min-height: 90px;
+    width: 670px;
+    display: block;
+    padding: 20px 20px;
+    font-size: 20px;
+    margin: 10px 30px;
+    margin-top: 10px;
+    resize: vertical;
+    border: 2px solid rgb(244, 248, 246);
+    background-color: white;
+}
+
+textarea:focus,
+textarea {
+    border: none;
+}
+
+.write-here h2 {
+    margin: 10px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.write-here button {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid #2f2626;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+
+.write-here button:hover {
+    background-color: #dde6e6;
+}
+
+.card-notes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px 5px;
+    padding: 10px 10px;
+    width: 215px;
+    border: 2px solid wheat;
+    border-radius: 2px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+}
+
+.noteNo {
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 5px;
+    background-color: #e8e3e3;
+    border: 2px solid #e1d0ae;
+    font-weight: lighter;
+}
+
+.para {
+    margin: 2px 0px;
+    font-family: 'DM Sans', sans-serif;
+    word-spacing: 2px;
+    color: #312525;
+    font-weight: bold;
+    word-wrap: break-word;
+    /* to break the long words */
+}
+
+.twoBtn {
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.delete {
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid #2f2626;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+
+.important {
+    background-color: #d16f1a;
+    border: 2px solid black;
+    width: 20px;
+    border-radius: 20px;
+    height: 20px;
+    margin-top: 14px;
+}
+
+.important:hover {
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #dde6e6;
+}
+
+.logo:hover,
+h1:hover,
+h2:hover {
+    cursor: default;
+}

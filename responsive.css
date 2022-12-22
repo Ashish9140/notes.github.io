@@ -1,0 +1,63 @@
+@media screen and (max-width:800px) {
+    .container {
+        width: 670px;
+    }
+
+    .write-here textarea {
+        width: 560px;
+    }
+
+    .card {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:695px) {
+    .container {
+        width: 470px;
+    }
+
+    .write-here textarea {
+        width: 360px;
+    }
+
+    .card-notes {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .container {
+        width: 290px;
+    }
+
+    .write-here textarea {
+        width: 178px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:311px) {
+    .container {
+        width: 270px;
+    }
+
+    .write-here textarea {
+        width: 170px;
+    }
+
+    .container h1 {
+        font-size: 29px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+}
